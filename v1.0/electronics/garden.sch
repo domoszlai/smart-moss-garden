@@ -224,7 +224,7 @@
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="VOUT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
 <pin name="VIN" x="-10.16" y="0" length="short" direction="in"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="in" rot="R90"/>
 <text x="0" y="-2.54" size="1.778" layer="95" font="vector" align="top-center">GND</text>
@@ -323,10 +323,10 @@
 <device name="" package="SOT363">
 <connects>
 <connect gate="G$1" pin="D1" pad="3"/>
-<connect gate="G$1" pin="D2" pad="4"/>
+<connect gate="G$1" pin="D2" pad="6"/>
 <connect gate="G$1" pin="G1" pad="5"/>
 <connect gate="G$1" pin="G2" pad="2"/>
-<connect gate="G$1" pin="S1" pad="6"/>
+<connect gate="G$1" pin="S1" pad="4"/>
 <connect gate="G$1" pin="S2" pad="1"/>
 </connects>
 <technologies>
