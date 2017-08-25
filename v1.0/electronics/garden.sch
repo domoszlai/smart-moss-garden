@@ -8766,7 +8766,18 @@ part number 2062-2P from STA</description>
 </sheets>
 <errors>
 <approved hash="104,1,-297.18,55.88,IC1P,VCC,+3V3,,,"/>
-<approved hash="104,1,-248.92,15.24,U$1,RAW,VCC,,,"/>
+<approved hash="104,1,-241.3,15.24,U$1,RAW,VCC,,,"/>
+<approved hash="208,1,-335.28,5.08,+3V3,out,,,,"/>
+<approved hash="208,1,-320.04,10.16,+3V3,sup,,,,"/>
+<approved hash="208,1,-309.88,66.04,+3V3,sup,,,,"/>
+<approved hash="206,1,-444.5,55.88,LED1_SINK,,,,,"/>
+<approved hash="206,1,-444.5,-20.32,LED1_SINK,,,,,"/>
+<approved hash="206,1,-444.5,50.8,LED2_SINK,,,,,"/>
+<approved hash="206,1,-469.9,-10.16,LED2_SINK,,,,,"/>
+<approved hash="206,1,-444.5,45.72,LED3_SINK,,,,,"/>
+<approved hash="206,1,-444.5,12.7,LED3_SINK,,,,,"/>
+<approved hash="206,1,-469.9,45.72,LED4_SINK,,,,,"/>
+<approved hash="206,1,-469.9,22.86,LED4_SINK,,,,,"/>
 </errors>
 </schematic>
 </drawing>
