@@ -4,5 +4,3 @@ Use these ICs so any LEDs can be driven on 5V/20mA:
 AP2502KTR-G1 - LED Driver IC 4 Output Linear PWM Dimming 20mA SOT-23-6 
 
 No pull-down resistor is necesssary as AVR output pins never float.
-
-Maybe: 4 x NSI45020AT1G instead of AP2502KTR-G1
