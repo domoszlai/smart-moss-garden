@@ -57,7 +57,7 @@ ISR(TIMER2_COMPA_vect)
 {
   if (_tickCount == GATETIME_CLICKS) 
   {
-    _freq = _pulseCount * 20;   // based on 100ms
+    _freq = _pulseCount * 10;   // based on 100ms
     _ready = 1;
 
     TIMSK2 &= ~_BV(OCIE2A);     // disable Timer2 Interrupt
