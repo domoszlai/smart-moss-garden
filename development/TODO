@@ -1,0 +1,9 @@
+Main goal: add sensors and interface with computer using VUSB
+
+- Use ATmega328P directly instead of Arduino Mini Pro 3.3V
+- Run ATmega328P on 5V, so it can run on 16Mhz needed by VSUSB
+* Get rid of Arduino code, use avr-gcc instead
+- Add VSUB to firmware
+- Use screwless terminals for leds: e.g. dg142v-5.08-8p (2.5, 3.81, kf142v)
+  http://en.cnkefa.com/index.php?c=product&a=type&tid=490
+
